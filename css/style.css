@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .header {
+    background-color: #f39c12;
+    padding: 30px;
+    text-align: center;
+  }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #e74c3c;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #navbar a:hover {
+    background-color: #c0392b;
+    color: #fff;
+  }
+  #navbar a.aktive {
+    background-color: #c0392b;
+    color: white;
+  }
+  .nav{
+     width: 932px;
+    margin:auto;
+  }
+  .konten {
+    margin:auto;
+    width: 900px;
+    padding: 16px;
+    background: #bdc3c7;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .konten {
+    padding-top: 60px;
+  }
+
+  footer{
+    background: #e74c3c;
+    overflow: hidden;
+  }
+  footer p{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+ .foot{
+     width: 30%;
+ }
+
+ .grid-container{
+     display: grid;
+     grid-template-columns:auto auto auto ;
+     background-color: #e74c3c;
+     padding: 10px;
+ }
+ .grid-item{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+ .form-grp{
+    width: 100%;
+   
+ }
+ .form-ctrl{
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ }
+ label{
+     width: 100%;
+ }
+
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 100px;
+  }
+  .kontak {
+      width: 70%;
+      padding: 12px 20px;
+      margin: 10px 0;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
